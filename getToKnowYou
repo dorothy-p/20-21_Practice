@@ -1,5 +1,10 @@
 ##Place functions in here" 
-
+def dorothy():
+    print("Hello")
+    print("My name is Dorothy Pirosch.)"
+    print("I am in engineering.")
+    print("I like both Marvel and DC.")
+    print("My favorite color is pink.")
 
 
 ##End of function area
@@ -31,7 +36,8 @@ elif name == "gabby":
 elif name == "shawn":
 
 elif name == "dorothy":
-
+    dorothy();
+   
 elif name == "wade":
 
 else: 
