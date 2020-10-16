@@ -1,8 +1,28 @@
 ##Showcase in a creative way, the use of if statements in Python
 ##The most creative/ most informative example will be merged into the main branch
-'''
-if "Your Way" > "Their Way":
-  print("Your file will be merged")
+
+print("Choose a number 1-8 and I will tell you your fortune...\n")
+answer = input("Number: ")
+answer = int(answer)
+
+if(answer == 1):
+  print("You will live a long and healthy life.")
+elif(answer == 2):
+  print("You won't make it to 30.")
+elif(answer == 3):
+  print("It isn't called spooky season for no reason. Better watch your back...")
+elif(answer == 4):
+  print("You will become rich beyond your wildest dreams.")
+elif(answer == 5):
+  print("You will find great suffering before your happy ending")
+elif(answer == 6):
+  print("This week will be the best of the year. Don't waste it.")
+elif(answer == 7):
+  print("Next year will be your year to achieve your dreams.")
+elif(answer == 8):
+  print("Good times heading your way!")
 else:
-  print("Thier file will be merged")
-'''
+  print("Forbidden number... now face the consequences...")
+
+print("\n \n \n \n \n \n \n \n \n")
+print("I'm coming for you...")
