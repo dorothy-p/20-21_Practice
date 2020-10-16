@@ -1,3 +1,29 @@
 ##Request input from a user and prompt the user to input a number
 ##Demonstrate the use of +, -, *, /, and % 
 ##Submit a pull request. One will be chosen to be merged into the main branch. 
+
+print("Welcome!!!")
+input1 = input("Enter your first number: ")
+input2 = input("Enter your second number: ")
+input1 = int(input1)
+input2 = int(input2)
+inputOp = input("Enter an operator: ")
+
+if (inputOp == "+"):
+  print (input1 + input2)
+
+elif(inputOp == "-"):
+  print(input1 - input2)
+
+elif(inputOp == "*"):
+  print(input1 * input2)
+
+elif(inputOp == "/"):
+  print(input1 / input2)
+
+elif(inputOp == "%"):
+  print(input1 % input2)
+
+else:
+ print("That is not a legitimate operator.")
+
